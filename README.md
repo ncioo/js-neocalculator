@@ -1,2 +1,2 @@
-# js-neocalculator
-Just a beautiful calculator
+# Neomorphism style & simple JS calculator
+Sounds great
