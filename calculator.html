@@ -132,7 +132,7 @@
                     else if (this.value == 'CE') string = ''
                     else if (this.value == '=' && string.length !== '') {
                         try {
-                            string = eval(string)
+                            string = `${eval(string)}`
                         } catch (err) {
                             if (err) return toggleError('Incorrect syntax')
                         }
